@@ -1,6 +1,6 @@
-package br.com.scfxcorp.diocitiesapi.repository;
+package br.com.scardofax.diocitiesapi.repository;
 
-import br.com.scfxcorp.diocitiesapi.model.City;
+import br.com.scardofax.diocitiesapi.model.City;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

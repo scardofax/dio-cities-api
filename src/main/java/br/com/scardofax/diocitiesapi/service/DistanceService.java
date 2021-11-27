@@ -1,7 +1,7 @@
-package br.com.scfxcorp.diocitiesapi.service;
+package br.com.scardofax.diocitiesapi.service;
 
-import br.com.scfxcorp.diocitiesapi.model.City;
-import br.com.scfxcorp.diocitiesapi.repository.CityRepository;
+import br.com.scardofax.diocitiesapi.model.City;
+import br.com.scardofax.diocitiesapi.repository.CityRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

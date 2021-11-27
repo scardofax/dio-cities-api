@@ -1,4 +1,4 @@
-package br.com.scfxcorp.diocitiesapi.model;
+package br.com.scardofax.diocitiesapi.model;
 
 import com.vladmihalcea.hibernate.type.json.JsonType;
 import org.hibernate.annotations.Type;

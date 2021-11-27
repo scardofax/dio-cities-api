@@ -1,7 +1,7 @@
-package br.com.scfxcorp.diocitiesapi.resource;
+package br.com.scardofax.diocitiesapi.resource;
 
-import br.com.scfxcorp.diocitiesapi.model.Country;
-import br.com.scfxcorp.diocitiesapi.repository.CountryRepository;
+import br.com.scardofax.diocitiesapi.model.Country;
+import br.com.scardofax.diocitiesapi.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

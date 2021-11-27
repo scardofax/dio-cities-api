@@ -1,4 +1,4 @@
-package br.com.scfxcorp.diocitiesapi;
+package br.com.scardofax.diocitiesapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

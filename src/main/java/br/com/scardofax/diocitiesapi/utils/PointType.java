@@ -1,4 +1,4 @@
-package br.com.scfxcorp.diocitiesapi.utils;
+package br.com.scardofax.diocitiesapi.utils;
 
 import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;

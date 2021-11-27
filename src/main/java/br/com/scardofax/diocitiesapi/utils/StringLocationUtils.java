@@ -1,4 +1,4 @@
-package br.com.scfxcorp.diocitiesapi.utils;
+package br.com.scardofax.diocitiesapi.utils;
 
 public class StringLocationUtils {
 

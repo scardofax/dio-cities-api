@@ -1,6 +1,6 @@
-package br.com.scfxcorp.diocitiesapi.model;
+package br.com.scardofax.diocitiesapi.model;
 
-import br.com.scfxcorp.diocitiesapi.utils.PointType;
+import br.com.scardofax.diocitiesapi.utils.PointType;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;

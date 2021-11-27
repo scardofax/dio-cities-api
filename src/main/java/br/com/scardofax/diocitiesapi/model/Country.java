@@ -1,4 +1,4 @@
-package br.com.scfxcorp.diocitiesapi.model;
+package br.com.scardofax.diocitiesapi.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

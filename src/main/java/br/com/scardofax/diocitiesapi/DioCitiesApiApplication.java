@@ -1,4 +1,4 @@
-package br.com.scfxcorp.diocitiesapi;
+package br.com.scardofax.diocitiesapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

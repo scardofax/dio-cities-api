@@ -1,6 +1,6 @@
-package br.com.scfxcorp.diocitiesapi.resource;
+package br.com.scardofax.diocitiesapi.resource;
 
-import br.com.scfxcorp.diocitiesapi.service.DistanceService;
+import br.com.scardofax.diocitiesapi.service.DistanceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
