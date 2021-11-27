@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface CityRepository extends JpaRepository<City, Integer> {
 
-    final String QUERY = "SELECT ((SELECT lat_lon FROM cidade WHERE id=?1) <@> "
+    String QUERY = "SELECT ((SELECT lat_lon FROM cidade WHERE id=?1) <@> "
             + "(SELECT lat_lon FROM cidade WHERE id=?2)) as distance";
 
     @Query(value = QUERY, nativeQuery = true)

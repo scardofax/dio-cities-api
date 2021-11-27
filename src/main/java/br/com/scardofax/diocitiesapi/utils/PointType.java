@@ -35,11 +35,13 @@ public class PointType implements UserType {
 
     @Override
     public Object nullSafeGet(ResultSet rs, String[] names, SharedSessionContractImplementor session, Object owner) throws HibernateException, SQLException {
-       // System.out.println("rs = " + rs + ", names = " + Arrays.deepToString(names) + ", session = " + session + ", owner = " + owner);
+
         /* 1st */
-   /*     Object object = rs.getObject(names[0]);
+        /*
+        Object object = rs.getObject(names[0]);
         Double[] points = StringLocationUtils.transform(object.toString());
-        return new Point(points[0], points[1]);*/
+        return new Point(points[0], points[1]);
+        */
 
         /* 2nd */
         PGpoint value = (PGpoint) rs.getObject(names[0]);
@@ -47,7 +49,7 @@ public class PointType implements UserType {
     }
 
     @Override
-    public void nullSafeSet(PreparedStatement st, Object value, int index, SharedSessionContractImplementor session) throws HibernateException, SQLException {
+    public void nullSafeSet(PreparedStatement st, Object value, int index, SharedSessionContractImplementor session) throws HibernateException {
 
     }
 
